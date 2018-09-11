@@ -1,0 +1,18 @@
+.GridImage {
+    opacity: 0.9;
+}
+
+.GridImage .image-container {
+    resize: both;
+    overflow: hidden;
+    border: solid 1px #ccc;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+.GridImage .image {
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: none
+}

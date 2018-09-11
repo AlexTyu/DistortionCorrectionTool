@@ -1,0 +1,21 @@
+.PythonCodeOutput {
+    position: relative;
+}
+
+.PythonCodeOutput .code-container {
+    border: solid 1px #999;
+    padding: 5px;
+    font-size: 80%;
+    overflow-x: auto;
+}
+
+.PythonCodeOutput .code-container .code {
+    white-space: pre;
+}
+
+.PythonCodeOutput .download-button {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+

@@ -1,0 +1,20 @@
+{
+  "name": "distortion-correction-tool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-draggable": "^3.0.5",
+    "react-resizable": "^1.7.5",
+    "react-rnd": "^7.4.0",
+    "react-scripts": "1.1.4",
+    "react-tabs": "^2.2.2"
+  },
+  "scripts": {
+    "start": "BROWSER=none REACT_EDITOR=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

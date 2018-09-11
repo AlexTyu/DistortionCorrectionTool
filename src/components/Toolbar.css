@@ -1,0 +1,22 @@
+.Toolbar {
+    background-color: black;
+    height: 60px;
+    margin-top: 0px;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Toolbar .logo {
+    max-height: 100%;
+}
+
+.Toolbar .title {
+    font-size: 160%;
+    font-weight: 400;
+    font-variant: small-caps;
+}

@@ -1,0 +1,74 @@
+.App {
+    padding-bottom: 300px;
+}
+
+.App .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.App .main-container>* {
+    margin-top: 20px;
+}
+
+/*.App .grid-container {
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.App .coordinates-display-container {
+    width: 800px;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.App .scroll-button {
+    border: solid 1px #ccc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 4px #ccc;
+    cursor: pointer;
+}
+.App .scroll-button.hidden {
+    display: none;
+}
+.App .scroll-button:hover {
+    box-shadow: 4px 4px 8px #ccc;
+}
+
+.absolute-max {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.box:hover {
+    border: solid 1px black;
+}
+
+.box {
+    display: inline-block;
+    background: #ccc;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+

@@ -1,0 +1,20 @@
+.TextOutputDisplay {
+    text-align: left;
+}
+
+
+.TextOutputDisplay .points-container {
+    padding: 10px;
+    border: solid 1px #ccc;
+    font-size: 60%;
+}
+
+.TextOutputDisplay table {
+    border-collapse: collapse;
+}
+
+.TextOutputDisplay table td {
+    border: solid 1px #ccc;
+    padding: 4px;
+}
+

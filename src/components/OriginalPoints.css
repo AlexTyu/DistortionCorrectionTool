@@ -1,0 +1,20 @@
+
+.OriginalPoints {
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.3);
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.OriginalPoints:hover {
+    border: solid 1px black;
+}
+
+.OriginalPoints .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
